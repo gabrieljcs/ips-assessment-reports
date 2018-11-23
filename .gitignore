@@ -1,0 +1,5 @@
+.pylintrc
+results/
+nvd/
+tmp/
+**/__pycache__/
