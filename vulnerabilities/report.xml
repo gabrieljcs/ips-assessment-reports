@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<SCAN>
+	<IP value="10.0.0.1" name="10.0.0.1">
+		<VULNS>
+			<CAT value="TCP/IP">
+				<VULN number="1" severity="1" cveid="CVE-2004-0230">
+					<CVE_ID_LIST>
+						<CVE_ID>
+							<ID><![CDATA[CVE-2004-0230]]></ID>
+							<URL><![CDATA[http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-0230]]></URL>
+						</CVE_ID>
+					</CVE_ID_LIST>
+				</VULN>
+			</CAT>
+			<CAT value="CGI" port="80" protocol="tcp">
+				<VULN number="2" severity="2" cveid="CVE-2004-2320,CVE-2003-1567">
+					<CVE_ID_LIST>
+						<CVE_ID>
+							<ID><![CDATA[CVE-2004-2320]]></ID>
+							<URL><![CDATA[http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2004-2320]]></URL>
+						</CVE_ID>
+						<CVE_ID>
+							<ID><![CDATA[CVE-2003-1567]]></ID>
+							<URL><![CDATA[http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1567]]></URL>
+						</CVE_ID>
+					</CVE_ID_LIST>
+				</VULN>
+			</CAT>
+		</VULNS>
+		<PRACTICES>
+			<CAT value="General remote services">
+				<PRACTICE number="3" severity="3" cveid="CVE-2016-3115">
+					<CVE_ID_LIST>
+						<CVE_ID>
+							<ID><![CDATA[CVE-2016-3115]]></ID>
+							<URL><![CDATA[http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3115]]></URL>
+						</CVE_ID>
+					</CVE_ID_LIST>
+				</PRACTICE>
+				<PRACTICE number="4" severity="4" cveid="CVE-2016-10009,CVE-2016-10010">
+					<CVE_ID_LIST>
+						<CVE_ID>
+							<ID><![CDATA[CVE-2016-10009]]></ID>
+							<URL><![CDATA[http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10009]]></URL>
+						</CVE_ID>
+						<CVE_ID>
+							<ID><![CDATA[CVE-2016-10010]]></ID>
+							<URL><![CDATA[http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10010]]></URL>
+						</CVE_ID>
+					</CVE_ID_LIST>
+				</PRACTICE>
+			</CAT>
+		</PRACTICES>
+	</IP>
+</SCAN>
